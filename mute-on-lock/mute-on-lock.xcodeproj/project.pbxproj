@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E1F77E71DB419E1002C9269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1F77E61DB419E1002C9269 /* AppDelegate.swift */; };
+		7E1F77E91DB419E1002C9269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1F77E81DB419E1002C9269 /* ViewController.swift */; };
+		7E1F77EB1DB419E1002C9269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1F77EA1DB419E1002C9269 /* Assets.xcassets */; };
+		7E1F77EE1DB419E1002C9269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1F77EC1DB419E1002C9269 /* Main.storyboard */; };
+		7E1F77F91DB419E1002C9269 /* mute_on_lockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1F77F81DB419E1002C9269 /* mute_on_lockTests.swift */; };
+		7E1F78041DB419E1002C9269 /* mute_on_lockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1F78031DB419E1002C9269 /* mute_on_lockUITests.swift */; };
+		7E1F78121DB41FD0002C9269 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1F78111DB41FD0002C9269 /* NotificationHandler.swift */; };
+		7E1F78141DB42377002C9269 /* AudioHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1F78131DB42377002C9269 /* AudioHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E1F77F51DB419E1002C9269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E1F77DB1DB419E1002C9269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E1F77E21DB419E1002C9269;
+			remoteInfo = "mute-on-lock";
+		};
+		7E1F78001DB419E1002C9269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E1F77DB1DB419E1002C9269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E1F77E21DB419E1002C9269;
+			remoteInfo = "mute-on-lock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E1F77E31DB419E1002C9269 /* mute-on-lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mute-on-lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1F77E61DB419E1002C9269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E1F77E81DB419E1002C9269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E1F77EA1DB419E1002C9269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E1F77ED1DB419E1002C9269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E1F77EF1DB419E1002C9269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1F77F41DB419E1002C9269 /* mute-on-lockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mute-on-lockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1F77F81DB419E1002C9269 /* mute_on_lockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mute_on_lockTests.swift; sourceTree = "<group>"; };
+		7E1F77FA1DB419E1002C9269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1F77FF1DB419E1002C9269 /* mute-on-lockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mute-on-lockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1F78031DB419E1002C9269 /* mute_on_lockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mute_on_lockUITests.swift; sourceTree = "<group>"; };
+		7E1F78051DB419E1002C9269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1F78111DB41FD0002C9269 /* NotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		7E1F78131DB42377002C9269 /* AudioHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E1F77E01DB419E1002C9269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1F77F11DB419E1002C9269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1F77FC1DB419E1002C9269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E1F77DA1DB419E1002C9269 = {
+			isa = PBXGroup;
+			children = (
+				7E1F77E51DB419E1002C9269 /* mute-on-lock */,
+				7E1F77F71DB419E1002C9269 /* mute-on-lockTests */,
+				7E1F78021DB419E1002C9269 /* mute-on-lockUITests */,
+				7E1F77E41DB419E1002C9269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1F77E41DB419E1002C9269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E1F77E31DB419E1002C9269 /* mute-on-lock.app */,
+				7E1F77F41DB419E1002C9269 /* mute-on-lockTests.xctest */,
+				7E1F77FF1DB419E1002C9269 /* mute-on-lockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E1F77E51DB419E1002C9269 /* mute-on-lock */ = {
+			isa = PBXGroup;
+			children = (
+				7E1F77E61DB419E1002C9269 /* AppDelegate.swift */,
+				7E1F77E81DB419E1002C9269 /* ViewController.swift */,
+				7E1F77EA1DB419E1002C9269 /* Assets.xcassets */,
+				7E1F77EC1DB419E1002C9269 /* Main.storyboard */,
+				7E1F77EF1DB419E1002C9269 /* Info.plist */,
+				7E1F78111DB41FD0002C9269 /* NotificationHandler.swift */,
+				7E1F78131DB42377002C9269 /* AudioHandler.swift */,
+			);
+			path = "mute-on-lock";
+			sourceTree = "<group>";
+		};
+		7E1F77F71DB419E1002C9269 /* mute-on-lockTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E1F77F81DB419E1002C9269 /* mute_on_lockTests.swift */,
+				7E1F77FA1DB419E1002C9269 /* Info.plist */,
+			);
+			path = "mute-on-lockTests";
+			sourceTree = "<group>";
+		};
+		7E1F78021DB419E1002C9269 /* mute-on-lockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E1F78031DB419E1002C9269 /* mute_on_lockUITests.swift */,
+				7E1F78051DB419E1002C9269 /* Info.plist */,
+			);
+			path = "mute-on-lockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E1F77E21DB419E1002C9269 /* mute-on-lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1F78081DB419E1002C9269 /* Build configuration list for PBXNativeTarget "mute-on-lock" */;
+			buildPhases = (
+				7E1F77DF1DB419E1002C9269 /* Sources */,
+				7E1F77E01DB419E1002C9269 /* Frameworks */,
+				7E1F77E11DB419E1002C9269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mute-on-lock";
+			productName = "mute-on-lock";
+			productReference = 7E1F77E31DB419E1002C9269 /* mute-on-lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E1F77F31DB419E1002C9269 /* mute-on-lockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1F780B1DB419E1002C9269 /* Build configuration list for PBXNativeTarget "mute-on-lockTests" */;
+			buildPhases = (
+				7E1F77F01DB419E1002C9269 /* Sources */,
+				7E1F77F11DB419E1002C9269 /* Frameworks */,
+				7E1F77F21DB419E1002C9269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E1F77F61DB419E1002C9269 /* PBXTargetDependency */,
+			);
+			name = "mute-on-lockTests";
+			productName = "mute-on-lockTests";
+			productReference = 7E1F77F41DB419E1002C9269 /* mute-on-lockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E1F77FE1DB419E1002C9269 /* mute-on-lockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1F780E1DB419E1002C9269 /* Build configuration list for PBXNativeTarget "mute-on-lockUITests" */;
+			buildPhases = (
+				7E1F77FB1DB419E1002C9269 /* Sources */,
+				7E1F77FC1DB419E1002C9269 /* Frameworks */,
+				7E1F77FD1DB419E1002C9269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E1F78011DB419E1002C9269 /* PBXTargetDependency */,
+			);
+			name = "mute-on-lockUITests";
+			productName = "mute-on-lockUITests";
+			productReference = 7E1F77FF1DB419E1002C9269 /* mute-on-lockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E1F77DB1DB419E1002C9269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Scott Runciman";
+				TargetAttributes = {
+					7E1F77E21DB419E1002C9269 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					7E1F77F31DB419E1002C9269 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E1F77E21DB419E1002C9269;
+					};
+					7E1F77FE1DB419E1002C9269 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E1F77E21DB419E1002C9269;
+					};
+				};
+			};
+			buildConfigurationList = 7E1F77DE1DB419E1002C9269 /* Build configuration list for PBXProject "mute-on-lock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E1F77DA1DB419E1002C9269;
+			productRefGroup = 7E1F77E41DB419E1002C9269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E1F77E21DB419E1002C9269 /* mute-on-lock */,
+				7E1F77F31DB419E1002C9269 /* mute-on-lockTests */,
+				7E1F77FE1DB419E1002C9269 /* mute-on-lockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E1F77E11DB419E1002C9269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1F77EB1DB419E1002C9269 /* Assets.xcassets in Resources */,
+				7E1F77EE1DB419E1002C9269 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1F77F21DB419E1002C9269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1F77FD1DB419E1002C9269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E1F77DF1DB419E1002C9269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1F77E91DB419E1002C9269 /* ViewController.swift in Sources */,
+				7E1F78141DB42377002C9269 /* AudioHandler.swift in Sources */,
+				7E1F78121DB41FD0002C9269 /* NotificationHandler.swift in Sources */,
+				7E1F77E71DB419E1002C9269 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1F77F01DB419E1002C9269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1F77F91DB419E1002C9269 /* mute_on_lockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1F77FB1DB419E1002C9269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1F78041DB419E1002C9269 /* mute_on_lockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E1F77F61DB419E1002C9269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E1F77E21DB419E1002C9269 /* mute-on-lock */;
+			targetProxy = 7E1F77F51DB419E1002C9269 /* PBXContainerItemProxy */;
+		};
+		7E1F78011DB419E1002C9269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E1F77E21DB419E1002C9269 /* mute-on-lock */;
+			targetProxy = 7E1F78001DB419E1002C9269 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E1F77EC1DB419E1002C9269 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1F77ED1DB419E1002C9269 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E1F78061DB419E1002C9269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E1F78071DB419E1002C9269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7E1F78091DB419E1002C9269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mute-on-lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FifteenStep.mute-on-lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7E1F780A1DB419E1002C9269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mute-on-lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FifteenStep.mute-on-lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7E1F780C1DB419E1002C9269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mute-on-lockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FifteenStep.mute-on-lockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mute-on-lock.app/Contents/MacOS/mute-on-lock";
+			};
+			name = Debug;
+		};
+		7E1F780D1DB419E1002C9269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mute-on-lockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FifteenStep.mute-on-lockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mute-on-lock.app/Contents/MacOS/mute-on-lock";
+			};
+			name = Release;
+		};
+		7E1F780F1DB419E1002C9269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mute-on-lockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FifteenStep.mute-on-lockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "mute-on-lock";
+			};
+			name = Debug;
+		};
+		7E1F78101DB419E1002C9269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mute-on-lockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FifteenStep.mute-on-lockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "mute-on-lock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E1F77DE1DB419E1002C9269 /* Build configuration list for PBXProject "mute-on-lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1F78061DB419E1002C9269 /* Debug */,
+				7E1F78071DB419E1002C9269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1F78081DB419E1002C9269 /* Build configuration list for PBXNativeTarget "mute-on-lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1F78091DB419E1002C9269 /* Debug */,
+				7E1F780A1DB419E1002C9269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E1F780B1DB419E1002C9269 /* Build configuration list for PBXNativeTarget "mute-on-lockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1F780C1DB419E1002C9269 /* Debug */,
+				7E1F780D1DB419E1002C9269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E1F780E1DB419E1002C9269 /* Build configuration list for PBXNativeTarget "mute-on-lockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1F780F1DB419E1002C9269 /* Debug */,
+				7E1F78101DB419E1002C9269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E1F77DB1DB419E1002C9269 /* Project object */;
+}
